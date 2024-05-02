@@ -22,7 +22,7 @@ FROM employees;
 SELECT first_name, hire_date,
 TO_CHAR(hire_date, 'YYYY') string_year,
 TO_CHAR(hire_date, 'mm') string_mon,
-TO_CHAR(hire_date, 'DD') string_mon,
+TO_CHAR(hire_date, 'DD') string_day,
 TO_CHAR(salary) string_salary, 
 TO_CHAR(hire_date, 'MM-YYYY') string_mon_year
 FROM employees;
