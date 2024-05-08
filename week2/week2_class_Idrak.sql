@@ -124,7 +124,7 @@ SELECT 'A' || ' B ' || 'C',
 'A' || TRIM(' B ') || 'C',
 'A' || LTRIM(' B ') || 'C',
 'A' || RTRIM(' B ') || 'C'
-FROM daul;
+FROM dual;
 
 SELECT *
 FROM employees
