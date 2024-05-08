@@ -278,10 +278,10 @@ FROM employees_copy
 
 -- her iscinin maasini onun departamentindeki maksimum maasinin yarisini qeder artirin
 
-UPDATE employees_copy emp
+UPDATE employees_copy ec
 SET salary = salary + (SELECT MAX(salary)
-			 FROM employees_copy
-			 WHERE emp.department_id = emp.department_id) / 2
+			 FROM employees_copy emp
+			 WHERE emp.department_id = ec.department_id) / 2
 
 						
 -- 						Check Constraints
