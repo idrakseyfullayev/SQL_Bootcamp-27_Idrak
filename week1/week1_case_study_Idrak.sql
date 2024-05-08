@@ -133,11 +133,7 @@ SELECT email, job_id, first_name
 FROM employees
 WHERE hire_date BETWEEN '01-01-2007' AND '31-12-2007' OR hire_date LIKE '%-01-'
 
-SELECT email, job_id, first_name, hire_date
-FROM employees
-WHERE CAST(hire_date AS varchar) LIKE '2007%' OR CAST(hire_date AS varchar)LIKE '%-01-%'
-
-*
+  
 /*
 12) Write a query to display details of employees who was hired after 2007 or salary 
 is less than 10000.
