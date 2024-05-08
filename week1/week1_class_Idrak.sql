@@ -106,8 +106,8 @@ The syntax of the AND operator is as follows:
 
 The following table illustrates the result when you combine the true, false, and a
 NULL value using the AND operator.
-								    TRUE   FALSE NUL
-								  -  -  -  -  -   -
+								TRUE   FALSE NUL
+							      -  -  -  -  -   -
 							TRUE  - TRUE   FALSE NULL
 							FALSE - FALSE  FALSE FALSE
 							NULL  - NULL   FALSE NULL
@@ -125,8 +125,8 @@ expression_1 OR expression_2
 The following table shows the results the OR operator between true, false, and a
 NULL value.
 		
-							    TRUE   FALSE  NULL
-							  -   -   -   -    - 
+							TRUE   FALSE  NULL
+						      -   -   -   -    - 
 						TRUE  - TRUE   TRUE   TRUE
 						FALSE - TRUE   FALSE  NULL
 						NULL  - TRUE   NULL   NULL
