@@ -273,8 +273,8 @@ FROM employees
 WHERE first_name LIKE '%nn%'
 
 SELECT salary
-FROM employees
-WHERE   CAST(salary AS VARCHAR) LIKE '%3%'
+FROM hr.employees
+WHERE salary LIKE '%3%'
 
 
 /*
